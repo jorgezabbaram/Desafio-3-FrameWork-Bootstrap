@@ -1,0 +1,28 @@
+header{
+    background-color: #DFECF4;
+    color: #050404;
+    height: 15vh;
+}
+li .nav-link{
+    color: #050404;
+}
+li .btn {
+    background-color: #48CAFD;
+    color: #2A4882;
+    font-weight: bold;
+}
+.up{
+    background-color: #29417C;
+}
+/*body-up*/
+.h1-div1{
+    color: #29417C;
+}
+.boton-div1{
+    background-color: #48CAFD !important;
+    color: #2A4882 !important;
+    font-weight: bold !important;  
+}
+.ultima-seccion{
+    background-color: #DFECF4;
+}
