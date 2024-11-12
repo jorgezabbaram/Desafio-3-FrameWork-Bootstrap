@@ -1,0 +1,144 @@
+header {
+    background-color: #DFECF4;
+    color: #050404;
+    min-height: 80px;
+}
+header .btn{
+    background-color: #48CAFD;
+    color: #2A4882;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    transition: all 0.3s ease;
+}
+.navbar-nav .nav-link {
+    color: #050404;
+    padding: 0.5rem 1rem;
+}
+.nav-item .nav-link{
+    color: #050404;
+}
+.btn {
+    background-color: #48CAFD;
+    color: #2A4882;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2A4882;
+    color: #48CAFD;
+}
+
+/* XL buttons for larger screens */
+@media (min-width: 1200px) {
+    .btn-xl {
+        padding: 0.8rem 2rem;
+        font-size: 1.1rem;
+    }
+}
+
+.up {
+    background-color: #29417C;
+    padding: 4rem 0;
+}
+
+.h1-div1 {
+    color: #29417C;
+    margin-bottom: 1.5rem;
+}
+
+.boton-div1 {
+    background-color: #48CAFD !important;
+    color: #2A4882 !important;
+    font-weight: bold !important;
+}
+
+.ultima-seccion {
+    background-color: #DFECF4;
+    padding: 4rem 0;
+}
+
+/* Footer styles */
+.sub-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.logos-footer {
+    margin: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.logos-footer:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .navbar-collapse {
+        background-color: #DFECF4;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0.5rem 0;
+    }
+}
+
+/* Improved spacing for sections */
+.container {
+    padding: 2rem 1rem;
+}
+
+/* Image responsiveness */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Typography improvements */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Footer columns responsive adjustment */
+@media (max-width: 768px) {
+    .footer-imagen {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Navigation dropdown improvements */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item:hover {
+    background-color: #DFECF4;
+}
+
+/* Section spacing */
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
